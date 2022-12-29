@@ -11,6 +11,17 @@ jobs:
     steps:
       - name: Checkout codes
         uses: actions/checkout@v2
+      - name: add chinese fonts
+        run: |
+          sudo apt-get install ttf-mscorefonts-installer
+          sudo apt-get install fontconfig
+          fc-list :lang=zh
+          ls -lh /usr/share/fonts/
+          cp -rf ./fonts/* /usr/share/fonts/
+          mkfontscale
+          mkfontdir
+          fc-cache
+          fc-list :lang=zh
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
