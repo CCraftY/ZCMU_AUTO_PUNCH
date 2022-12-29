@@ -32,11 +32,7 @@
  |TOKEN(选填) |pushplustoken|需填写主用户pushplustoken(任意字符，首位)以','分隔。例现有2位用户:TOKEN=任意字符,第二位用户plusplustoken|
  |LOCATION      |定位              | 须按规范填写，后果自负|
  |ACCOMMODATION|开学后居住地||
- |PHONE|本人手机号||
- |ADDR|居住地址||
- |ADDRDE|详细地址||
- |PARNAME|紧急联系人姓名||
- |PARPHONE|紧急联系人联系方式||
+
  
 ### 推送说明
  > 若单用户使用，可根据notify.py内的推送配置自行选择推送渠道。请确保在workflow中添加相应代码。
