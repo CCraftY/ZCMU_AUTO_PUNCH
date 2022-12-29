@@ -40,9 +40,4 @@ jobs:
           DD_BOT_TOKEN: ${{secrets.DD_BOT_TOKEN}}
           TOKEN: ${{secrets.TOKEN}}
           ACCOMMODATION: ${{secrets.ACCOMMODATION}}
-          PHONE: ${{secrets.PHONE}}
-          ADDR: ${{secrets.ADDR}}
-          ADDRDE: ${{secrets.ADDRDE}}
-          PARNAME: ${{secrets.PARNAME}}
-          PARPHONE: ${{secrets.PARPHONE}}
         run: python main.py
