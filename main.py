@@ -22,8 +22,8 @@ DKTIME = ''
 class report:
     def __init__(self):
         chrome_options = Options()
-        chrome_options.add_argument('--lang=ja')
-        #chrome_options.add_argument('--headless')
+        chrome_options.add_experimental_option("prefs", {"intl.accept_languages": "fr-FR"})
+        chrome_options.add_argument('--headless')
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
         #self.driver = webdriver.Chrome(service=Service('/usr/bin/chromedriver'), options=chrome_options)
