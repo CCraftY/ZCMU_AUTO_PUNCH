@@ -1,5 +1,4 @@
- # ZCMU自动健康打卡脚本 ![](https://img.shields.io/badge/%E6%89%93%E5%8D%A1-ZCMU-brightgreen)[![ZCMU Auto Punch](https://github.com/OopsSnap/ZCMU_AUTO_PUNCH/actions/workflows/main.yml/badge.svg)](https://github.com/OopsSnap/ZCMU_AUTO_PUNCH/actions/workflows/main.yml)
- 
+ # ZCMU自动健康打卡脚本 ![](https://img.shields.io/badge/%E6%89%93%E5%8D%A1-ZCMU-brightgreen) [![ZCMU Auto Punch](https://github.com/CCraftY/ZCMU_AUTO_PUNCH/actions/workflows/main.yml/badge.svg)](https://github.com/CCraftY/ZCMU_AUTO_PUNCH/actions/workflows/main.yml)
 ~~低调使用，建议私有库运行~~
  > 浙江中医药大学自动健康打卡
 ## 2022/12/26 表格内容变化，跟进更新，尚未测试
