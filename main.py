@@ -211,6 +211,11 @@ class report:
             return True
 
     def check(self) -> bool:
+        language = self.__client.execute_script('''
+        var lan = window.navigator.language;
+        return lan;
+        ''')
+        print(language)
         url = 'https://yqfk.zcmu.edu.cn:5010/Noauth/api/form/api/DataSource/GetDataSourceByNo?sqlNo=SELECT_XSJKDK${}'
         res = json.loads(requests.get(url.format(self.__username)).text)
         global DKYC
